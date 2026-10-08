@@ -3,6 +3,7 @@
   "name": "openapi-inspector",
   "version": "0.1.0",
   "description": "Focused OpenAPI JSON inspection and compatibility checks.",
+  "repository": "https://github.com/gx4004/openapi-inspector",
   "license": "MIT",
   "keywords": ["openapi", "api", "developer-tools"],
   "extensions": { "com.openai": { "interface": {

@@ -1,6 +1,10 @@
 # OpenAPI Inspector
 
-An open-source, read-only MCP plugin for focused OpenAPI JSON inspection and API change review. Version 0.1.0 is a local prototype, not yet published to OpenAI or deployed publicly.
+An open-source, read-only MCP plugin for focused OpenAPI JSON inspection and API change review. Version 0.1.0 is not yet published to OpenAI or deployed publicly.
+
+Source: https://github.com/gx4004/openapi-inspector
+
+Support and bug reports: https://github.com/gx4004/openapi-inspector/issues
 
 ## Run
 
@@ -41,6 +45,8 @@ The application does not save specifications, log request bodies or call URLs de
 
 ## Release status
 
-Local code and tests are provided. GitHub publication, hosting, verified publisher identity, public policy/support URLs, real ChatGPT testing, listing assets and portal review remain outstanding. See SUBMISSION.md. The plugin configuration is a template and must receive the real deployment URL before use.
+Source is published on GitHub. Hosting, verified publisher identity, public policy URLs, real ChatGPT testing, listing assets and portal review remain outstanding. See SUBMISSION.md. The plugin configuration is a template and must receive the real deployment URL before use.
+
+A Render Blueprint is included in render.yaml with the free instance plan. Confirm Free in the dashboard before creating it. Free Render instances sleep after inactivity; cold starts may cause host tool-call timeouts. This deployment has not yet been tested, and the prototype does not include a rate limiter. Configure request limits before opening it for general use. Do not select a paid plan for this launch.
 
 Licensed under MIT. See LICENSE.
