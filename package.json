@@ -1,0 +1,16 @@
+{
+  "name": "openapi-inspector",
+  "version": "0.1.0",
+  "description": "Focused OpenAPI inspection and compatibility checks over MCP",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.5"
+  }
+}

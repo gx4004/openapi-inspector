@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "openapi-inspector": {
+      "type": "streamable-http",
+      "url": "https://REPLACE-WITH-REAL-HOST.invalid/mcp"
+    }
+  }
+}

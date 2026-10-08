@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "openapi-inspector",
+  "version": "0.1.0",
+  "description": "Focused OpenAPI JSON inspection and compatibility checks.",
+  "license": "MIT",
+  "keywords": ["openapi", "api", "developer-tools"],
+  "extensions": { "com.openai": { "interface": {
+    "displayName": "OpenAPI Inspector",
+    "shortDescription": "Check API specs and changes",
+    "longDescription": "Inspect supplied OpenAPI JSON and flag selected compatibility changes. Focused checks only; does not fetch URLs, resolve external references or guarantee compatibility.",
+    "category": "Developer Tools",
+    "capabilities": ["Inspect OpenAPI JSON", "Compare API versions"]
+  } } }
+}
